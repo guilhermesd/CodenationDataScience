@@ -1,0 +1,5 @@
+*.exe
+data-science-0/.ipynb_checkpoints
+data-science-0/.pytest_cache
+data-science-0/_pycache_
+data-science-0/venv

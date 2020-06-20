@@ -1,0 +1,75 @@
+
+import pandas as pd
+import numpy as np
+
+black_friday = pd.read_csv("black_friday.csv")
+
+black_friday.head()
+
+black_friday.tail()
+
+black_friday.shape
+
+black_friday[(black_friday.Gender == "F") &(black_friday.Age == "26-35")].shape[0]
+
+black_friday.dtypes.nunique()
+
+black_friday.dtypes
+
+def q1():
+    # Retorne aqui o resultado da questão 1.
+    return black_friday.shape
+
+def q2():
+    # Retorne aqui o resultado da questão 2.
+    return black_friday[(black_friday.Gender == "F") &(black_friday.Age == "26-35")].shape[0]
+
+def q3():
+    # Retorne aqui o resultado da questão 3.
+    return black_friday['User_ID'].nunique()
+
+def q4():
+    # Retorne aqui o resultado da questão 4.
+    return black_friday.dtypes.nunique()
+
+def q5():
+    # Retorne aqui o resultado da questão 5.
+    return float(len(black_friday.dropna().index)) / float(len(black_friday.index))
+
+type(float(len(black_friday.dropna().index)) / float(len(black_friday.index)))
+
+type(np.float64(0).item())
+
+float(len(black_friday.dropna().index) / len(black_friday.index))
+
+float((black_friday.isna().sum(axis = 1)>0).sum()/ black_friday.shape[0])
+
+len(black_friday.index)
+
+black_friday.shape[0]
+
+len(black_friday.dropna().index)
+
+
+
+
+
+def q6():
+    # Retorne aqui o resultado da questão 6.
+    pass
+
+def q7():
+    # Retorne aqui o resultado da questão 7.
+    pass
+
+def q8():
+    # Retorne aqui o resultado da questão 8.
+    pass
+
+def q9():
+    # Retorne aqui o resultado da questão 9.
+    pass
+
+def q10():
+    # Retorne aqui o resultado da questão 10.
+    pass
