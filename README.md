@@ -1,3 +1,3 @@
 # CodenationDataScience
 
-## repositório com todos Desafios semanais do Acelera Dev Data Science da CodenationDataScience
+## Repositório com todos desafios semanais do AceleraDev Data Science da Codenation
